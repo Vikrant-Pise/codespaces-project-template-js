@@ -13,7 +13,7 @@ const Header = () => {
         position: "fixed",
         display: "flex",
         justifyContent: "center",
-        gap: "2rem",
+        gap: "3rem",
         background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         top: 0,
@@ -21,10 +21,11 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      {/* add font size */}
+      <a href="#home" style={{ fontSize: "1.2rem" }}>Home</a>
+      <a href="#about" style={{ fontSize: "1.2rem" }}>About</a>
+      <a href="#portfolio" style={{ fontSize: "1.2rem" }}>Portfolio</a>
+      <a href="#footer" style={{ fontSize: "1.2rem" }}>Contact</a>
     </div>
   );
 };

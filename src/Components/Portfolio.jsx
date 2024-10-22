@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/vicky2.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Ola Electric Landing Page 🏍️",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "1)Developed a responsive landing page using HTML, CSS, and JavaScript. 2)Integrated a 3D model of the Ola Electric bike from the official Ola website ",
+    url: "https://vikrant-pise.github.io/Ola-Electric-Landing-Page---By_Vikrant-Pise/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Portfolio 🗂️",
+    description:
+      "1) Developed a responsive portfolio website using HTML, CSS, and JavaScript. 2) Featuring interactive elements, animations, and optimized performance",
+    url: "https://vikrant-pise.github.io/Portfolio-Vikrant_Pise/",
+  },
+  {
+    title: "Lobe Tour Ai Website Clone 🤖",
+    description:
+      "This project involves creating a clone of the Lobe Tour AI website, focusing on delivering a seamless user experience while showcasing advanced AI-driven travel solutions",
+    url: "https://vikrant-pise.github.io/Lobe-Tour-Ai-Clone---By-Vikrant-Pise/",
+  },
+  {
+    title: "Rock Paper Scissors Game 🎮",
     description:
       "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    url: "https://vikrant-pise.github.io/Rock-Paper-scissors-Game/",
   },
 ];
 
@@ -61,7 +61,7 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "41%", alignSelf: "center" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}

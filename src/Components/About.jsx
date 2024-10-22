@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/back2.png";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hi, I'm a Frontend Developer.I specialize in creating clean, responsive, and user-friendly web interfaces that blend simplicity with creativity. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML5 & CSS3",
+  "JavaScript (ES6+)",
+  "React.js",
+  "Responsive Web Design",
+  "Version Control (Git)",
+ "Performance Optimization",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about crafting seamless user experiences through innovative design and efficient coding. By leveraging my frontend development skills.";
 
 const About = () => {
   return (
@@ -58,6 +58,7 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+           borderRadius: "15px"
         }}
       >
         <h2>About Myself</h2>
@@ -77,7 +78,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "0rem 3rem 0",  fontSize: "1.25rem" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

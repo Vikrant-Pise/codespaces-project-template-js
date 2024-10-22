@@ -20,16 +20,24 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+// import image from "../images/woman-with-tablet.jpg";
+import image from "../images/vicky.jpeg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+
+
+
+
+const imageAltText = "Vikrant Developer Logo";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+      <img className="background" src={image} alt={imageAltText} />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
+        <h1 style={{ display: "flex", alignItems: "baseline", fontSize: "3.5rem" }}>
+          <span>{name.split(" ")[0]}</span> 
+          <span style={{ marginLeft: "1.0rem" }}>{name.split(" ")[1]}</span> 
+        </h1>
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
